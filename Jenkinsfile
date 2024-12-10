@@ -4,7 +4,7 @@ pipeline {
         stage('Cloner le code') {
             steps {
                 // Cloner le dépôt Git
-                git 'https://github.com/mon-compte/mon-depot.git'
+                git 'https://github.com/Errachidiacoder/Jenkins_TP.git'
             }
         }
         stage('Compiler les classes Java') {
